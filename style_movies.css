@@ -175,6 +175,14 @@ div {
 transition: all 4s;
 }
 
+/* MEDIA QUERIES FOR IPHONE SCREEENS */
+
+@media screen and (max-width: 375px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 
 
