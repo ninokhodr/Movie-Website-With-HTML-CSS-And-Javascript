@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-    display: flex;
+    display: flex; 
     font-size: 20px;
     color:lawngreen;
 
