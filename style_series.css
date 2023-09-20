@@ -116,6 +116,27 @@ footer {
       display: flex;
       flex-direction: column;
     }
+
+    footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100vw;
+      padding: 2rem;
+    }
+  
+    .navbar-container {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+  
+      margin-right: 0 auto;
+    }
+  
+    .tribute img {
+      display: none;
+    }
+    
   }
 
 
