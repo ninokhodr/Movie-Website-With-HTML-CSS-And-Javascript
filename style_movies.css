@@ -33,7 +33,7 @@ body {
     justify-content:space-around;
   }
 
-  .tribute {
+  .movie-container {
     display: grid;
     grid-template-columns: 1.5fr 0.75fr;
     max-width: 110rem;
@@ -59,26 +59,26 @@ body {
     padding: 7px;
   }
   
-.tribute blockquote {
+.movie-container blockquote {
     font-weight: 250;
     text-align: bottom;
     font-size: 1.6rem;
     margin-bottom: 15rem;
   }
   
-.tribute img {
+.movie-container img {
     max-width: 90%;
   }
 
 
- .tribute blockquote > h1 {
+ .movie-container blockquote > h1 {
     margin-bottom: 10rem;
     color: darkorange;
     font-size: 3rem;
     font-weight: 800;
  }
 
-.test {
+ .releases {
     margin-left: 2rem;
     font-size: 1.3rem;
     color: darkorange;
@@ -143,9 +143,10 @@ z-index: 2;
 
 .left-block {
 flex: 1;
-/* background-color: #a1cfec; */
-background-image: url("/leftcurtain.jpg");
 
+/* background-color: #a1cfec; */
+
+background-image: url("/leftcurtain.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
