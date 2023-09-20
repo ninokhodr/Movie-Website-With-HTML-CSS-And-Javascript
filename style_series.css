@@ -73,6 +73,7 @@ body {
   }
   
 .movie-container img {
+    box-shadow: 0 4px 8px 0 rgba(72, 72, 72, 0.2), 0 6px 20px 0 rgba(66, 66, 66, 0.19);
     max-width: 90%;
   }
 
@@ -84,7 +85,7 @@ body {
     font-weight: 800;
  }
 
-.releases {
+ .releases {
     margin-left: 2rem;
     font-size: 1.3rem;
     color: darkorange;
