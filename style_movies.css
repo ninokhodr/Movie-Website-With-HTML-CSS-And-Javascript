@@ -1,0 +1,180 @@
+a {
+    color: white;
+  }
+
+body {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-container {
+    display:flex;
+    font-family: "Sen", sans-serif;
+  }
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    font-size: 20px;
+    color:lawngreen;
+
+  }
+  
+.menu-container {
+    flex: 1;
+  }
+
+.menu-list {
+    display: flex;
+    list-style:none; 
+    justify-content:space-around;
+  }
+
+  .tribute {
+    display: grid;
+    grid-template-columns: 1.5fr 0.75fr;
+    max-width: 110rem;
+    margin: 10px auto;
+    background-image: linear-gradient(black, grey, black);
+    color: white;
+    align-items: center;
+    
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .row {
+    display: flex;
+    background-image: linear-gradient(grey, black);
+  }
+
+  .column {
+    flex: 33.33%;
+    padding: 7px;
+  }
+  
+.tribute blockquote {
+    font-weight: 250;
+    text-align: bottom;
+    font-size: 1.6rem;
+    margin-bottom: 15rem;
+  }
+  
+.tribute img {
+    max-width: 90%;
+  }
+
+
+ .tribute blockquote > h1 {
+    margin-bottom: 10rem;
+    color: darkorange;
+    font-size: 3rem;
+    font-weight: 800;
+ }
+
+.test {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    color: darkorange;
+    
+}
+
+ .img-text {
+    color: grey;
+    opacity: 0.5;
+    margin-bottom: 2rem;
+    text-align: center;
+ }
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    background-color: black;
+    color: white;
+    padding: 120px;
+    text-align: center;
+  }
+
+  
+
+
+
+  /* JAVASCRIPT */
+
+  body  {
+    background-color: black;
+}
+
+.open-button {
+position: absolute;
+top: 250px;
+width: 100%;
+text-align: center;
+font-size: 18px;
+z-index: 2;
+}
+
+.open-button > button {
+  font-weight: bold;
+  font-size: 1.3rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #fff;
+  border: 4px solid #fff;
+
+  padding: 1.2rem;
+}
+
+.block-wrapper {
+  margin: 20px auto;
+  display: flex;
+  width: auto;
+  height: 100vh;
+  }
+
+.left-block {
+flex: 1;
+/* background-color: #a1cfec; */
+background-image: url("/leftcurtain.jpg");
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+}
+
+.close {
+flex: 0;
+}
+
+.open {
+flex: 40;
+}
+
+.right-block {
+flex: 1;
+background-image: url("/rightcurtain.jpg");
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+div {
+transition: all 4s;
+}
+
+
+
+

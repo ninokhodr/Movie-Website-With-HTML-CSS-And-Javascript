@@ -1,0 +1,113 @@
+a {
+    color: white;
+  }
+
+body {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-container {
+    display:flex;
+    font-family: "Sen", sans-serif;
+  }
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    font-size: 20px;
+    color:lawngreen;
+
+  }
+  
+.menu-container {
+    flex: 1;
+  }
+
+.menu-list {
+    display: flex;
+    list-style:none; 
+    justify-content:space-around;
+  }
+
+  .tribute {
+    display: grid;
+    grid-template-columns: 1.5fr 0.75fr;
+    max-width: 100rem;
+    margin: 20px auto;
+    background-image: url("https://images.bauerhosting.com/legacy/empire-images/features/5757ed56bf1bdcf50c7ff1d6/Peaky%20Blinders%20main.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    align-items: center;
+    
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .row {
+    display: flex;
+    background-image: linear-gradient(grey, black);
+  }
+
+  .column {
+    flex: 33.33%;
+    padding: 7px;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+.tribute blockquote {
+    font-weight: 250;
+    text-align: bottom;
+    font-size: 1.6rem;
+    margin-bottom: 15rem;
+  }
+  
+.tribute img {
+    max-width: 90%;
+  }
+
+
+ .tribute blockquote > h1 {
+    margin-bottom: 6rem;
+    color: darkorange;
+    font-size: 3rem;
+    font-weight: 800;
+ }
+
+.test {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    color: darkorange;
+    
+}
+
+ .img-text {
+    color: grey;
+    opacity: 0.5;
+    margin-bottom: 2rem;
+    text-align: center;
+ }
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    background-color: black;
+    color: white;
+    padding: 120px;
+    text-align: center;
+  }
+
+
+
