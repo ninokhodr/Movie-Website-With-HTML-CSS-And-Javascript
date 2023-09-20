@@ -200,7 +200,7 @@ transition: all 4s;
     margin-right: 0 auto;
   }
 
-  .tribute img {
+  .movie-container img {
     display: none;
   }
 }
