@@ -33,7 +33,7 @@ body {
     justify-content:space-around;
   }
 
-  .tribute {
+  .movie-container {
     display: grid;
     grid-template-columns: 1.5fr 0.75fr;
     max-width: 110rem;
@@ -65,26 +65,26 @@ body {
     background-attachment: fixed;
   }
   
-.tribute blockquote {
+.movie-container blockquote {
     font-weight: 250;
     text-align: bottom;
     font-size: 1.6rem;
     margin-bottom: 15rem;
   }
   
-.tribute img {
+.movie-container img {
     max-width: 90%;
   }
 
 
- .tribute blockquote > h1 {
+ .movie-container blockquote > h1 {
     margin-bottom: 6rem;
     color: white;
     font-size: 3rem;
     font-weight: 1000;
  }
 
-.test {
+.releases {
     margin-left: 2rem;
     font-size: 1.3rem;
     color: darkorange;
@@ -136,7 +136,7 @@ footer {
     .tribute img {
       display: none;
     }
-    
+
   }
 
 
