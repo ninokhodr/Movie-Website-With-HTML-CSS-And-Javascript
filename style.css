@@ -217,3 +217,13 @@ p {
 .text--center {
   text-align: center;
 }
+
+
+/* MEDIA QUERIES FOR  IPHONE SCREENS */
+
+@media screen and (max-width: 375px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
