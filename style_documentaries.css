@@ -33,7 +33,7 @@ body {
     justify-content:space-around;
   }
 
-  .movie-container {
+.movie-container {
     display: grid;
     grid-template-columns: 1.5fr 0.75fr;
     max-width: 110rem;
@@ -99,7 +99,7 @@ body {
  }
 
 
-footer {
+  footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
@@ -117,7 +117,7 @@ footer {
       flex-direction: column;
     }
 
-    footer {
+  footer {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
